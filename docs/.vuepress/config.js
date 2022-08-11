@@ -19,7 +19,7 @@ module.exports = {
       {text: '前端基础', link: '/accumulate/' },
       {text: '算法题库', link: '/algorithm/'},
       {text: '诗和远方', link: '/others/'},
-      {text: '微博', link: 'https://baidu.com'}      
+      {text: '微博', link: 'https://weibo.com/u/1267267114'}      
     ],
     // sidebar:{
     //   '/accumulate/': [
