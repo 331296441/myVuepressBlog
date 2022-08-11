@@ -16,8 +16,8 @@ module.exports = {
   },
   themeConfig: {
     nav:[ // 导航栏配置
-      {text: '前端基础', link: '/accumulate/' },
-      {text: '算法题库', link: '/algorithm/'},
+      {text: 'JAVA知识', link: '/java/' },
+      {text: 'Vue知识', link: '/vue/'},
       {text: '诗和远方', link: '/others/'},
       {text: '微博', link: 'https://weibo.com/u/1267267114'}      
     ],
