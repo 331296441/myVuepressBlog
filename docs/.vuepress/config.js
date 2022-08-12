@@ -19,6 +19,7 @@ module.exports = {
       {text: 'JAVA知识', link: '/java/' },
       {text: 'Vue知识', link: '/vue/'},
       {text: '诗和远方', link: '/others/'},
+      {text: '感谢', link: '/guide'},
       {text: '微博', link: 'https://weibo.com/u/1267267114'}      
     ],
     // sidebar:{
