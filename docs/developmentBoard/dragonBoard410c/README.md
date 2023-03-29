@@ -9,5 +9,6 @@
 
 ## 已安装功能
 1. 宝塔（本机安装 nginx+php+mysql）
-2. kodbox
+2. kodbox(8980)
 3. 编译了busybox
+4. kodexplorer(8981)
