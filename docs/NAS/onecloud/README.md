@@ -23,5 +23,6 @@ docker pull jellyfin/jellyfin
 ```
 
 ## nginx+php
+[phpapi-20151012](https://packages.debian.org/stretch/phpapi-20151012)
 
 ## kodexplorer
