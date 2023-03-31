@@ -20,6 +20,15 @@ docker pull chinkiang/onecloud_openwrt
 
 # jellyfin
 docker pull jellyfin/jellyfin
+
+# centos7
+docker pull arm32v7/centos:7.9.2009
+
+# redis
+docker pull arm32v7/redis
+
+# phpmyadmin
+docker pull arm32v7/phpmyadmin:latest
 ```
 
 ## nginx+php
