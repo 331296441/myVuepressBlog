@@ -25,4 +25,8 @@ docker pull jellyfin/jellyfin
 ## nginx+php
 [phpapi-20151012](https://packages.debian.org/stretch/phpapi-20151012)
 
+安装omv时，会由于pho7.4无法安装phpapi导致安装失败，此时导入清华OMV源即可安装成功
+
+[清华OMV源](https://mirrors-i.tuna.tsinghua.edu.cn/help/openmediavault/)
+
 ## kodexplorer
