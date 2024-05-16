@@ -22,8 +22,9 @@ sudo iptables -t nat -A POSTROUTING -o eth1 -j MASQUERADE   # 启用 NAT
 sudo iptables -A FORWARD -i eth1 -o eth0 -m state --state RELATED,ESTABLISHED -j ACCEPT   # 允许已建立的流量返回 
 sudo iptables -A FORWARD -i eth0 -o eth1 -j ACCEPT      # 允许从内网到外网的流量
 sudo sysctl -w net.ipv4.ip_forward=1    # 启用内核 IP 转发
-sudo iptables -P FORWARD ACCEPT 打开 iptables 的 FORWARD 链默认策略
-sudo iptables -A FORWARD -p udp --dport 53 -j ACCEPT  # 允许 DNS 流量通过
+sudo iptables -P FORWARD ACCEPT 
+# 打开 iptables 的 FORWARD 链默认策略
+sudo iptables -A FORWARD -p udp --dport 53 -j ACCEPT  # 允许 DNS 
 ```
 
 4. 配置 DHCP 服务器,为内网客户端分配 IP 地址:
